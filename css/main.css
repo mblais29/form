@@ -1,0 +1,17 @@
+html, body{
+	margin: 0;
+	border: 0;
+}
+
+main{
+	text-align: center;
+}
+
+input[type="text"]{
+    width: 10%;
+    text-align: left;
+}
+
+h1{
+	font-family: 'Poiret One', cursive;
+}
