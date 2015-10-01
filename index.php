@@ -37,7 +37,7 @@
 	
 	<main role="main">
 		<form action="save.php" method="post">
-		<h1>User Form1</h1>
+		<h1>User Form</h1>
 			<label class="first" for="firstName">First Name</br/></label>
     			<input class="first" type = "text" name = "firstName" id = "firstName" /><br><br>
     		<label class="second" for="lastName">Last Name</br/></label>
