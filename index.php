@@ -15,9 +15,11 @@
    <!-- Style sheet link -->
 	<link href="css/main.css" rel="stylesheet" media="all">
 	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:900' rel='stylesheet' type='text/css'>
    
    <!-- jquery sheet link -->
    	<script type="text/javascript" src="components/jquery-2.1.4.min.js"></script>
+   	<script type="text/javascript" src="js/main.js"></script>
 	
 </head>
 <body>
@@ -37,7 +39,7 @@
 	
 	<main role="main">
 		<form action="save.php" method="post">
-		<h1>User Form</h1>
+		<h1>User Information</h1>
 			<label class="first" for="firstName">First Name</br/></label>
     			<input class="first" type = "text" name = "firstName" id = "firstName" /><br><br>
     		<label class="second" for="lastName">Last Name</br/></label>

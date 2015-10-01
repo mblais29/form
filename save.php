@@ -20,7 +20,7 @@
 				VALUES
 				('$_POST[firstName]','$_POST[lastName]','$_POST[email]','$_POST[userName]','$_POST[myPwd]')";
 				
-			    if(mysql_fetch_row($sql)) {
+			    if(!$sql) {
 			        echo 'a activity against this project already exists...';
 			      }
 			      else{

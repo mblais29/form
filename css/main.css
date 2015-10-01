@@ -13,5 +13,15 @@ input[type="text"]{
 }
 
 h1{
+	font-family: 'Playfair Display', serif;
+}
+
+label{
 	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	
+}
+
+footer{
+	text-align: center;
 }
