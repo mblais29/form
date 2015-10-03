@@ -1,14 +1,17 @@
 $(document).ready(function() {
+     //Hides the textbox's on load
       $(".second").hide();
       $(".third").hide();
       $(".fourth").hide();
       $(".fifth").hide();
       $("#submit").hide();
+      
+     //Hides the three paragraphs
       $("#firstParagraph").hide();
       $("#secondParagraph").hide();
       $("#thirdParagraph").hide();
 
-      
+     //the paragraphs fadeIn when key is pressed in textbox
       $("#firstName").keypress( function(){
 	 	$(".second").fadeIn('slow');
       });
@@ -26,23 +29,25 @@ $(document).ready(function() {
      	});
 
      $('#firstName').keyup(function () {
+     	$("h1").hide();
+     	$("img").hide();
 	    $('#nameFirst').text($(this).val());
-	    $('#firstParagraph').show();
+	    $('#firstParagraph').slideDown();
 	 });
 	 
+	//Enters the user input into the paragraph when user begins typing
 	 $('#lastName').keyup(function () {
 	    $('#nameLast').text($(this).val());
-	   
 	 });
 	 
 	 $('#email').keyup(function () {
 	    $('#emailAddress').text($(this).val());
-	    $("#secondParagraph").show();
+	    $("#secondParagraph").slideDown();
 	 });
 	 
 	 $('#userName').keyup(function () {
 	    $('#user').text($(this).val());
-	    $("#thirdParagraph").show();
+	    $("#thirdParagraph").slideDown();
 	 });
 	 
 

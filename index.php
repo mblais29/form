@@ -25,6 +25,8 @@
 <body>
 	<div id="wrapper">
 		<header role="banner">
+			<h1>Sign Up Here</h1>
+			<img src="img/arrow.png" title="arrow" id="arrow" />
 			<p id="firstParagraph">Welcome <b><span id="nameFirst"></span> <span id="nameLast"></span></b>!</p>
 			<p id="secondParagraph">Your email address is <b><span id="emailAddress"></span></b></p>
 			<p id="thirdParagraph">Your desired username is <b><span id="user"></span></b>	
