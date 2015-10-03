@@ -23,43 +23,37 @@
 	
 </head>
 <body>
+	<div id="wrapper">
+		<header role="banner">
+			<p id="firstParagraph">Welcome <b><span id="nameFirst"></span> <span id="nameLast"></span></b>!</p>
+			<p id="secondParagraph">Your email address is <b><span id="emailAddress"></span></b></p>
+			<p id="thirdParagraph">Your desired username is <b><span id="user"></span></b>	
+		</header>
+		<div id="sentence"></div>
+		<!--<main role="main">-->
+			<form action="save.php" method="post">
+			<!--<h1>User Information</h1>-->
+				<label class="first" for="firstName" id="firstLabel">First Name</label>
+	    			<input class="first" type = "text" name = "firstName" id = "firstName" /><br/><br/>
+	    		<label class="second" for="lastName">Last Name</br/></label>
+	    			<input class="second" type = "text" name = "lastName" id = "lastName" /><br/><br/>
+	    		<label class="third" for="email">Email</br/></label>
+	    			<input class="third" type = "text" name = "email" id = "email" /><br/><br/>
+	    		<label class="fourth" for="userName">Username</br/></label>
+	    			<input class="fourth" type = "text" name = "userName" id = "userName" /><br/><br/>
+	    		<label class="fifth" for="myPwd">Password</br/></label>
+	    			<input class="fifth" type = "password" name = "myPwd" id = "myPwd" /><br/><br/>
+	    			<input type = "submit" id = "submit" value = "Submit" /><br/>
+			</form>
+		<!--</main>-->
+		<!--<footer role="contentinfo">
 	
-	<header role="banner">
-		
-		<!--<nav role="navigation">
-			<ul class="navbar">
-				<li><a href="#">Page 1</a></li>
-				<li><a href="#">Page 2</a></li>
-				<li><a href="#">Page 3</a></li>
-				<li><a href="#">Page 4</a></li>
-			</ul>	
-		</nav>-->
-		
-	</header>
+			<div>Page footer content</div>
 	
-	<main role="main">
-		<form action="save.php" method="post">
-		<h1>User Information</h1>
-			<label class="first" for="firstName">First Name</br/></label>
-    			<input class="first" type = "text" name = "firstName" id = "firstName" /><br><br>
-    		<label class="second" for="lastName">Last Name</br/></label>
-    			<input class="second" type = "text" name = "lastName" id = "lastName" /><br><br>
-    		<label class="third" for="email">Email</br/></label>
-    			<input class="third" type = "text" name = "email" id = "email" /><br><br>
-    		<label class="fourth" for="userName">Username</br/></label>
-    			<input class="fourth" type = "text" name = "userName" id = "userName" /><br><br>
-    		<label class="fifth" for="myPwd">Password</br/></label>
-    			<input class="fifth" type = "password" name = "myPwd" id = "myPwd" /><br><br>
-    			<input type = "submit" id = "submit" value = "Save" /><br><br>
-		</form>
-	</main>
-	<footer role="contentinfo">
-
-		<div>Page footer content</div><br><br>
-
-		<small>Copyright &copy; <time datetime="2015">2015</time></small>
-		
-	</footer>
+			<small>Copyright &copy; <time datetime="2015">2015</time></small>
+			
+		</footer>-->
+	</div>
 </body>
 </html>
 

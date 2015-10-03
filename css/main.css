@@ -3,15 +3,58 @@ html, body{
 	border: 0;
 }
 
-main{
+#wrapper{
+	width:100%;
+	height:100vh;
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+
+header{
+	width: 100%;
+	display: block;
+	position: absolute;
 	text-align: center;
+	font-size: 2em;
 }
 
-input[type="text"]{
-    width: 10%;
-    text-align: left;
+form{
+	text-align: center;
+	width: 30%;
 }
 
+input[type="text"], input[type="password"]{
+    width: 217px;
+	background: transparent url('../img/bg.jpg') no-repeat;
+	color : #747862;
+	height:20px;
+	border:0;
+	padding:4px 8px;
+	margin-bottom:0px;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	outline: none;
+	float: right;
+	display:block;
+}
+
+input[type="submit"]{
+	margin: 0 auto;
+	display:block;
+}
 h1{
 	font-family: 'Playfair Display', serif;
 }
@@ -19,9 +62,50 @@ h1{
 label{
 	font-family: 'Poiret One', cursive;
 	font-weight: bold;
-	
+	font-size: 1.5em;
+	float:left;
 }
 
-footer{
+/*footer {
 	text-align: center;
+	background:#ffab62;
+	width:100%;
+	height:50px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}*/
+
+/* Labels */
+
+#label{
+	font-size: 1.5em;
 }
+
+/* Submit Button */
+#submit{
+	background-color: #68b12f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+    background: -webkit-linear-gradient(top, #68b12f, #50911e);
+    background: -moz-linear-gradient(top, #68b12f, #50911e);
+    background: -ms-linear-gradient(top, #68b12f, #50911e);
+    background: -o-linear-gradient(top, #68b12f, #50911e);
+    background: linear-gradient(top, #68b12f, #50911e);
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    -webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+    -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    text-shadow: 0 -1px 0 #396715;
+   }
