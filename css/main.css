@@ -161,12 +161,34 @@ label{
 	
 }
 
-@media screen and (min-device-width: 481px) and (max-width: 720px) {
+@media screen and (min-width: 401px) and (max-width: 720px) {
 	header{
 		width: 100%;
 		display: block;
 		position: absolute;
 		text-align: center;
+	}
+	
+	input[type="text"], input[type="password"]{
+	    width: 175px;
+		background: transparent url('../img/bg-small.jpg') no-repeat;
+		color : #747862;
+		height:15px;
+		border:0;
+		padding:4px 8px;
+		margin-bottom:0px;
+		border-radius: 5px; 
+		-moz-border-radius: 5px; 
+		-webkit-border-radius: 5px; 
+		outline: none;
+		display:block;
+	}
+	
+	#arrow{
+		width: 15%;
+		display:inline-block;
+		top: 30%;
+		position: absolute;
 	}
 	
 	p{
@@ -178,7 +200,66 @@ label{
 	
     h1{
 		font-family: 'Poiret One', cursive;
-		font-size: 1.5em;
+		font-size: 1em;
+		display: inline-block;
+	}
+	
+	label{
+		font-family: 'Poiret One', cursive;
+		font-weight: bold;
+		font-size: 1.25em;
+		float:left;
+	}
+	
+	form {
+	    text-align: center;
+	    height: 40vh;
+	    width: 50%;
+	    display: block;
+	}
+
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+	header{
+		width: 100%;
+		display: block;
+		position: absolute;
+		text-align: center;
+	}
+	
+	input[type="text"], input[type="password"]{
+	    width: 175px;
+		background: transparent url('../img/bg-small.jpg') no-repeat;
+		color : #747862;
+		height:15px;
+		border:0;
+		padding:4px 8px;
+		margin-bottom:0px;
+		border-radius: 5px; 
+		-moz-border-radius: 5px; 
+		-webkit-border-radius: 5px; 
+		outline: none;
+		display:block;
+	}
+	
+	#arrow{
+		width: 30%;
+		display:inline-block;
+		top: 30%;
+		position: absolute;
+	}
+	
+	p{
+		font-family: 'Poiret One', cursive;
+		font-size: 0.65em;
+		display: block;
+	}
+	
+	
+    h1{
+		font-family: 'Poiret One', cursive;
+		font-size: 0.85em;
 		display: inline-block;
 	}
 	
